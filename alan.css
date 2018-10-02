@@ -1,0 +1,102 @@
+nav ul li {
+  	text-align: right;
+	display: inline-block;
+	list-style-type: none;
+	font-weight: bold;
+	
+}
+nav ul {
+	text-align: right;
+}
+body{
+	/*text-align: center;*/
+	background-color: aqua;
+}
+
+h1,#EarlyLife,#Career,h2,#Facts {
+	text-decoration: underline;
+	text-align: center;
+	color: #0000BB;
+	font-family: sans-serif;
+	height: 40px;
+}
+#Honours{
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+}
+img{
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	width: 20%;
+	height: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centermain{
+
+	font-family: sans-serif ;
+	font-weight: bold;
+    display: block;
+    /*margin-left: 20%;
+    margin-right: 20%;*/
+	font-size: 15px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+div p{
+	font-weight: bold;
+	padding-left: 25%;
+	padding-right: 25%
+}
+.bright{
+	color: red;
+}
+
+
+a.spl-linka {
+    border-style: inset;
+    border-color:rgb(10, 146, 146);
+    background-color: rgb(10, 146, 146);
+    text-decoration-line: none;
+    color: white;
+    border-width: 6px;
+}
+a.spl-linkb {
+    border-style: inset;
+    border-color:orange;
+    background-color: orange;
+    text-decoration-line: none;
+    color: white;
+    border-width: 6px;
+}
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Great Vibes'), local('GreatVibes-Regular'), url(https://fonts.gstatic.com/s/greatvibes/v5/RWmMoKWR9v4ksMfaWd_JN9XLiaQ6DQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+.interesting ol {
+        font-family: Great Vibes;
+        color: blue;
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 25%;
+		padding-right: 25%
+}
+h3{
+
+    text-align: center;
+   color: #0000BB;
+    text-decoration-line: underline;
+}
+div iframe{
+	padding-left: 25%;
+		padding-right: 25%
+
+}
